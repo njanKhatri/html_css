@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family:  "Open Sans", sans-serif;
+    font-weight: 400;
+}
+.main{
+    margin-top: 10px;
+    height: 100vh;
+    width: 100%;
+    background-color:white ;
+
+
+}
+
+.nav{
+    height: 110px;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-start;
+    padding: 0 50px;
+    
+
+}
+.nav-part-1{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+}
+
+.nav img{
+    height: 30px;
+    width: auto;
+    margin-right: 60px;
+    cursor: pointer;
+}
+.nav-part-1 ul{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    list-style: none;
+
+
+}
+
+.nav-part-1 ul li{
+    margin-right: 40px;
+    font-size: 19px;
+    font-weight: 500px;
+    text-transform:uppercase;
+    cursor: pointer;
+
+
+}
+.nav-part-2 i{
+    margin-right: 40px;
+    font-size: 21px;
+    font-weight: 500px;
+}
+.content{
+    height: calc(100%-110px);
+    
+    position: relative;
+    display: flex;
+}
+.left-content{
+    height: 100%;
+    width: 40%;
+    padding: 80px 100px;
+   
+
+}
+.left-content h5{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: grey;
+    margin-bottom: 10px;
+}
+.left-content h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 25px;
+}
+.lef-content p{
+    font-size: 20px;
+    text-transform: none;
+    color: black;
+    width: 80%;
+    margin-bottom:30px ;
+
+}
+.btn{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding: 12px 40px;
+    font-weight: 600;
+    border:none ;
+    border-radius: 50px;
+    border-top-left-radius: 0;
+}
+.content-right{
+    height: 100%;
+    width: 60%;
+    
+    padding: 110px 100px;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.product{
+    height:350px;
+    width:250px;
+    background-color: rgba(185, 109, 185, 0.067);
+    position: relative;
+    box-shadow: 0 5px 10px rgba(17, 0, 17, 0.5);
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.product img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    position: absolute;
+    bottom: 20%;
+}
+.product h4{
+    font-size: 18px;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 28%;
+}
+.category{
+    
+    position: absolute;
+    bottom: 20%;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.color{
+    position: absolute;
+    bottom: 15%;
+    font-weight: 500;
+    text-transform: capitalize;
+
+}
+.price{
+    font-size: 18px;
+    position: absolute;
+    bottom: 5%;
+    font-weight: 600;
+    text-transform: capitalize;
+
+}
+.content-right::-webkit-scrollbar
+{
+display: none;
+}
